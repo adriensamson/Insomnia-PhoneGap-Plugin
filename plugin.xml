@@ -63,4 +63,11 @@
     </js-module>
   </platform>
 
+  <!-- windows -->
+  <platform name="windows">
+    <js-module src="src/windows/insomnia.js" name="InsomniaProxy">
+      <runs />
+    </js-module>
+  </platform>
+
 </plugin>
